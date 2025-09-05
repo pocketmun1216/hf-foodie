@@ -46,7 +46,7 @@ Last Update: 20-07-2024
     4.6. Blog
     4.7. Comments
     4.8. Hero Area
-    4.9. Error
+    4.9. ErrorMain
     4.00. Popup Search
     4.00. Popup Side Menu
     4.00. Wocommerce
@@ -2642,7 +2642,6 @@ input[type=time]::-webkit-calendar-picker-indicator {
 }
 
 .th-btn:hover.th-icon:after {
-    background-color: var(--black-color);
 }
 
 .th-btn:hover.th-icon i, .th-btn.active.th-icon i {
@@ -13866,7 +13865,7 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
 }
 
 /* hero-12 end ----------------------------------------*/
-/*------------------- 4.9. Error  -------------------*/
+/*------------------- 4.9. ErrorMain  -------------------*/
 .error-img {
     text-align: center;
     min-width: 926px;
