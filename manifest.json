@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "오늘뭐먹지?",
+  "name": "오늘뭐먹지?",
   "icons": [
     {
       "src": "favicon.ico",

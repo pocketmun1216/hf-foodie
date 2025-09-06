@@ -17652,19 +17652,6 @@ span.select2-selection.select2-selection--single:focus {
     }
 }
 
-.global-img:hover:after {
-    height: 100%;
-    opacity: 0;
-    -webkit-transition: all .4s linear;
-    transition: all .4s linear;
-}
-
-.global-img:hover img {
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-}
-
 /* About area 1 start -------------------------*/
 .img-box1 {
     position: relative;
@@ -34651,7 +34638,7 @@ span.select2-selection.select2-selection--single:focus {
     line-height: 60px;
 }
 .quick-view-popup .product-title{
-    font-size: 48px;
+    font-size: 36px;
 }
 /* Close Button */
 .quick-view-close {
@@ -35180,3 +35167,162 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 /* Hero 1 end ----------------------------------*/
+#popular-restaurant-modal-01 .gallery {
+    display: grid;
+    grid-template-columns: auto auto;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin: 0 12px;
+    /* Large devices */
+    /* Small devices */
+    /* Extra small devices */
+}
+
+@media (max-width: 767px) {
+    #popular-restaurant-modal-01 .gallery {
+        grid-template-columns: auto;
+    }
+}
+
+#popular-restaurant-modal-01 .gallery-box.style01 .gallery-img {
+    width: 300px;
+    height: 250px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+#popular-restaurant-modal-01 .gallery-box.style01 .gallery-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#popular-restaurant-modal-01 .gallery-box-wrapp {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 24px;
+}
+
+#popular-restaurant-modal-01 .gallery-box-wrapp .gallery-box.style2:nth-child(5) {
+    margin-top: 24px;
+}
+
+#popular-restaurant-modal-01 .gallery-box {
+    position: relative;
+}
+
+#popular-restaurant-modal-01 .gallery-box_wrapp:first-child .gallery-box {
+    margin-top: 99px;
+    /* Medium devices */
+}
+
+@media (max-width: 991px) {
+    #popular-restaurant-modal-01 .gallery-box_wrapp:first-child .gallery-box {
+        margin-top: 0;
+    }
+}
+
+#popular-restaurant-modal-01 .gallery-box_wrapp:last-child .gallery-box {
+    margin-top: 348px;
+    /* Extra large devices */
+    /* Medium Large devices */
+}
+
+@media (max-width: 1500px) {
+    #popular-restaurant-modal-01 .gallery-box_wrapp:last-child .gallery-box {
+        margin-top: 24px;
+    }
+}
+
+@media (max-width: 1299px) {
+    #popular-restaurant-modal-01 .gallery-box_wrapp:last-child .gallery-box {
+        margin-top: 0;
+    }
+}
+
+#popular-restaurant-modal-01 .gallery-box:nth-child(2) {
+    margin-top: 24px;
+    /* Medium Large devices */
+    /* Medium devices */
+}
+
+@media (max-width: 1299px) {
+    #popular-restaurant-modal-01 .gallery-box:nth-child(2) {
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 991px) {
+    #popular-restaurant-modal-01 .gallery-box:nth-child(2) {
+        margin-bottom: 0;
+    }
+}
+
+#popular-restaurant-modal-01 .gallery-box .gallery-img {
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    border-radius: 16px;
+    /* Medium devices */
+}
+
+@media (max-width: 991px) {
+    #popular-restaurant-modal-01 .gallery-box .gallery-img {
+        margin-bottom: 0;
+    }
+}
+
+#popular-restaurant-modal-01 .gallery-box .gallery-img:after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: -webkit-linear-gradient(bottom, rgba(13, 13, 12, 0.5), rgba(13, 13, 12, 0.5));
+    background: linear-gradient(0deg, rgba(13, 13, 12, 0.5), rgba(13, 13, 12, 0.5));
+    border-radius: 16px;
+    opacity: 0;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    z-index: 1;
+}
+
+#popular-restaurant-modal-01 .gallery-box .gallery-img .icon-btn {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
+    z-index: 3;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    border: none;
+    font-size: 40px;
+    font-weight: 300;
+    color: var(--white-color);
+}
+
+#popular-restaurant-modal-01 .gallery-box .gallery-img .icon-btn:hover {
+    background-color: transparent;
+}
+
+#popular-restaurant-modal-01 .gallery-box .gallery-img img {
+    border-radius: 16px;
+}
+
+#popular-restaurant-modal-01 .gallery-box:hover .gallery-img:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+#popular-restaurant-modal-01 .gallery-box:hover .icon-btn {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
