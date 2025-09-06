@@ -35326,3 +35326,7 @@ span.select2-selection.select2-selection--single:focus {
     -ms-transform: scale(1);
     transform: scale(1);
 }
+
+#popular-restaurant-modal-01 .product-about {
+    margin-top: 12px;
+}
